@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAN - Tableau de bord</title>
+  <link rel="stylesheet" href="reste.css">
+</head>
+<body>
+
+<header>
+  <div>
+    <a href="Index.html">
+      <img id="logo" src="CAN.png" alt="Logo CAN">
+    </a>
+    <nav>
+      <a href="Index.html">Accueil</a>
+      <a href="Carte_embarquement.html">Cartes d'embarquement</a>
+      <a href="Facture.html">Facture</a>
+      <a href="Statistiques.html">Statistiques</a>
+      <a href="Tableau_Bord.html" class="actif">Vous êtes ici !</a>
+    </nav>
+  </div>
+  <div>
+    <h1>Tableau de bord</h1>
+    <p>Sélection des traversées</p>
+  </div>
+</header>
+
+<main class="dashboard">
+
+  <h2 class="dashboard-title">Sélection du trajet</h2>
+
+  <section class="trajets">
+
+    <div class="carte-trajet" id-liaison="1">
+        <span>Lorient</span>
+        <span class="fleche">➜</span>
+        <span>Groix</span>
+    </div>
+
+    <div class="carte-trajet" id-liaison="2">
+        <span>Groix</span>
+        <span class="fleche">➜</span>
+        <span>Lorient</span>
+    </div>
+
+    <div class="carte-trajet" id-liaison="3">
+        <span>Quiberon</span>
+        <span class="fleche">➜</span>
+        <span>Le Palais</span>
+    </div>
+
+    <div class="carte-trajet" id-liaison="4">
+        <span>Le Palais</span>
+        <span class="fleche">➜</span>
+        <span>Quiberon</span>
+    </div>
+
+    </section>
+
+
+  <h2 class="dashboard-title">Choisir un jour</h2>
+
+  <section class="jours-grid">
+
+    <button class="jour">01</button>
+    <button class="jour">02</button>
+    <button class="jour">03</button>
+    <button class="jour">04</button>
+    <button class="jour">05</button>
+    <button class="jour">06</button>
+    <button class="jour">07</button>
+    <button class="jour">08</button>
+    <button class="jour">09</button>
+    <button class="jour">10</button>
+    <button class="jour">11</button>
+    <button class="jour">12</button>
+    <button class="jour">13</button>
+    <button class="jour">14</button>
+    <button class="jour">15</button>
+    <button class="jour">16</button>
+    <button class="jour">17</button>
+    <button class="jour">18</button>
+    <button class="jour">19</button>
+    <button class="jour">20</button>
+    <button class="jour">21</button>
+    <button class="jour">22</button>
+    <button class="jour">23</button>
+    <button class="jour">24</button>
+    <button class="jour">25</button>
+    <button class="jour">26</button>
+    <button class="jour">27</button>
+    <button class="jour">28</button>
+    <button class="jour">29</button>
+    <button class="jour">30</button>
+
+    </section>
+
+
+  <section id="resultats" class="resultats">
+    <p>Sélectionnez un trajet et un jour pour afficher les informations.</p>
+  </section>
+
+</main>
+
+<script src="TableauDeBord.js"></script>
+</body>
+</html>

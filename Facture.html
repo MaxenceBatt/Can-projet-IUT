@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CAN - Facture</title>
+  <link rel="stylesheet" href="reste.css">
+</head>
+<body>
+  <header>
+    <div>
+      <a href="Index.html"><img id="logo" src="CAN.png" alt="Logo CAN"></a>
+      <div>
+        <nav>
+          <a href="Index.html">Accueil</a>
+          <a href="Carte_embarquement.html">Cartes d'embarquement</a>
+          <a href="Facture.html" class="active">Vous êtes ici !</a>
+          <a href="Statistiques.html">Statistiques</a>
+          <a href="Tableau_Bord.html">Tableau de bord</a>
+        </nav>
+      </div>
+    </div>
+    <div>
+      <h1>Facture</h1>
+      <p>Détail de la réservation</p>
+    </div>
+  </header>
+
+  
+  <main>
+    <h2>Facture du trajet</h2>
+    <input id="reservationId" placeholder="Numéro de réservation">
+    <button id="charger">Afficher</button>
+    <div id="facture"></div>
+  </main>
+  <script src="Facture.js"></script>
+</body>
+</html>

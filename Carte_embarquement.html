@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CAN - Cartes d'embarquement</title>
+  <link rel="stylesheet" href="reste.css">
+</head>
+<body>
+  <header>
+    <div>
+      <a href="Index.html"><img id="logo" src="CAN.png" alt="Logo CAN"></a>
+      <div>
+        <nav>
+          <a href="Index.html">Accueil</a> 
+          <a href="Carte_embarquement.html" class="active">Vous vous trouvez déjà là</a>
+          <a href="Facture.html">Facture</a>
+          <a href="Statistiques.html">Statistiques</a>
+          <a href="Tableau_Bord.html">Tableau de bord</a>
+        </nav>
+      </div>
+    </div>
+    <div>
+      <h1>Cartes d'embarquement</h1>
+      <p>Carte des passagers et véhicules.</p>
+    </div>
+  </header>
+  <main>
+    <h2>Carte d'embarquement</h2>
+    <input id="reservationId" placeholder="Numéro de réservation">
+    <button id="charger">Afficher</button>
+    <div id="carteEmbarquement"></div>
+    <div class="navigation">
+      <button id="prev">◀ Précédent</button>
+      <button id="next">Suivant ▶</button>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="Carte.js"></script>
+</body>
+</html>

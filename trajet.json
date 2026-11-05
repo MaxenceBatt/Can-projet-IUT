@@ -1,0 +1,166 @@
+[
+	{
+		"reservation": {
+			"nom" : "TP3",
+			"idLiaison" : 3,
+			"date" : "2025-11-02",
+			"heure" : "20:00",
+			"horodatage" : "2026-01-14 22:16:02"
+		},
+		"passagers": [
+			{
+				"nom" : "Batt",
+				"prenom" : "Maxence",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Tansel",
+				"prenom" : "Salih",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Treiber-Lustig",
+				"prenom" : "Lucas",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Schwartz",
+				"prenom" : "Tom",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Ait Tamgount",
+				"prenom" : "Marwan",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Gheddar",
+				"prenom" : "Yasser",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Garçya-Lys",
+				"prenom" : "Armand",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Herzog",
+				"prenom" : "Thalia",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Siffi",
+				"prenom" : "Rayan",
+				"codeCategorie" : "jeu1825"
+			}
+		],
+		"vehicules": [
+			{
+				"codeCategorie" : "trot",
+				"quantite" : 1
+			},
+			{
+				"codeCategorie" : "velo",
+				"quantite" : 9
+			},
+			{
+				"codeCategorie" : "cat1",
+				"quantite" : 3
+			},
+			{
+				"codeCategorie" : "cat2",
+				"quantite" : 2
+			},
+			{
+				"codeCategorie" : "cat3",
+				"quantite" : 1
+			},
+			{
+				"codeCategorie" : "cat4",
+				"quantite" : 1
+			}
+		]
+	},
+	{
+		"reservation": {
+			"nom" : "TP3 - retour",
+			"idLiaison" : 4,
+			"date" : "2025-11-20",
+			"heure" : "15:45",
+			"horodatage" : "2026-01-14 22:18:43"
+		},
+		"passagers": [
+			{
+				"nom" : "Batt",
+				"prenom" : "Maxence",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Tansel",
+				"prenom" : "Salih",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Treiber-Lustig",
+				"prenom" : "Lucas",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Schwartz",
+				"prenom" : "Tom",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Ait Tamgount",
+				"prenom" : "Marwan",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Gheddar",
+				"prenom" : "Yasser",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Garçya-Lys",
+				"prenom" : "Armand",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Herzog",
+				"prenom" : "Thalia",
+				"codeCategorie" : "jeu1825"
+			},
+			{
+				"nom" : "Siffi",
+				"prenom" : "Rayan",
+				"codeCategorie" : "jeu1825"
+			}
+		],
+		"vehicules": [
+			{
+				"codeCategorie" : "trot",
+				"quantite" : 1
+			},
+			{
+				"codeCategorie" : "velo",
+				"quantite" : 9
+			},
+			{
+				"codeCategorie" : "cat1",
+				"quantite" : 3
+			},
+			{
+				"codeCategorie" : "cat2",
+				"quantite" : 2
+			},
+			{
+				"codeCategorie" : "cat3",
+				"quantite" : 1
+			},
+			{
+				"codeCategorie" : "cat4",
+				"quantite" : 1
+			}
+		]
+	}
+]
